@@ -52,6 +52,19 @@ VALUES ('Juan Carlos', '12345678A');
 INSERT INTO contacto (telefono, persona_id)
 VALUES ('611223344', 1);
 ```
+⚡otras sentencias
+```
+SELECT * FROM contacto;
+
+SELECT * FROM contacto id = '1';
+
+UPDATE persona
+SET nombre = 'María Gómez'
+WHERE id = 1;
+
+DELETE FROM persona WHERE id = 1;
+```
+
 
 ### 🟢 Paso 2
 - crear modelo 1 a n
